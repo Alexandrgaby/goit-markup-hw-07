@@ -19,75 +19,78 @@
   <body>
     <div>
       <header class="hero-container">
-        <a class="logo" href="index.html"
-          ><span class="logo-first-word">Web</span>Studio</a
+        <a class="hero-container__logo" href="index.html"
+          ><span class="hero-container__logo-word">Web</span>Studio</a
         >
         <nav>
-          <ul class="list-content header-list">
+          <ul class="header-list list-content">
             <li>
-              <a class="link" href="index.html">Studio</a>
+              <a class="header-list__link" href="index.html">Studio</a>
             </li>
             <li>
-              <a class="link active-link" href="portfolio.html">Portofolio</a>
+              <a
+                class="header-list__link header-list__active-link"
+                href="portfolio.html"
+                >Portofolio</a
+              >
             </li>
             <li>
-              <a class="link" href="#">Contacts</a>
+              <a class="header-list__link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
-        <ul class="list-content header-list-right">
+        <ul class="header-right list-content">
           <li>
-            <a class="contact-header" href="mailto:info@devstudio.com">
-              <svg class="contact-header-svg">
+            <a class="header-right__contact" href="mailto:info@devstudio.com">
+              <svg class="header-right__svg">
                 <use href="./images/icons-svg.svg#iconmail1"></use>
               </svg>
-              <p>info@devstudio.com</p>
+              <p class="header-right__text">info@devstudio.com</p>
             </a>
           </li>
           <li>
-            <a class="contact-header" href="tel:+1212-772-4150">
-              <svg class="contact-header-svg">
+            <a class="header-right__contact" href="tel:+1212-772-4150">
+              <svg class="header-right__svg">
                 <use href="./images/icons-svg.svg#icon-phone-1"></use>
               </svg>
-
-              <p>+1 212-772-4150</p>
+              <p class="header-right__text">+1 212-772-4150</p>
             </a>
           </li>
         </ul>
       </header>
       <main>
         <section class="section">
-          <ul class="list-content buttons-section">
+          <ul class="list-content buttons-list">
             <li>
-              <button class="buttons" type="button">
-                <span class="buttons-text">All</span>
+              <button class="buttons-list__btn" type="button">
+                <span class="buttons-list__text">All</span>
               </button>
             </li>
             <li>
-              <button class="buttons" type="button">
-                <span class="buttons-text">Web-sites</span>
+              <button class="buttons-list__btn" type="button">
+                <span class="buttons-list__text">Web-sites</span>
               </button>
             </li>
             <li>
-              <button class="buttons" type="button">
-                <span class="buttons-text">Apps</span>
+              <button class="buttons-list__btn" type="button">
+                <span class="buttons-list__text">Apps</span>
               </button>
             </li>
             <li>
-              <button class="buttons" type="button">
-                <span class="buttons-text">Design</span>
+              <button class="buttons-list__btn" type="button">
+                <span class="buttons-list__text">Design</span>
               </button>
             </li>
             <li>
-              <button class="buttons" type="button">
-                <span class="buttons-text">Marketing</span>
+              <button class="buttons-list__btn" type="button">
+                <span class="buttons-list__text">Marketing</span>
               </button>
             </li>
           </ul>
           <div class="projects-container container">
-            <ul class="projects-list list-content">
-              <li class="project">
-                <div class="overlay-project">
+            <ul class="projects list-content">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -96,13 +99,13 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Technoduck</h2>
-                  <p>Web-site</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">Technoduck</h2>
+                  <p class="project-details__category">Web-site</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -111,13 +114,15 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Poster New Orlean vs Golden Star</h2>
-                  <p>Design</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">
+                    Poster New Orlean vs Golden Star
+                  </h2>
+                  <p class="project-details__category">Design</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -126,13 +131,13 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Seafood Restaurant</h2>
-                  <p>Apps</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">Seafood Restaurant</h2>
+                  <p class="project-details__category">Apps</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -141,13 +146,13 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Project Prime</h2>
-                  <p>Marketing</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">Project Prime</h2>
+                  <p class="project-details__category">Marketing</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -156,13 +161,13 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Project Boxes</h2>
-                  <p>Apps</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">Project Boxes</h2>
+                  <p class="project-details__category">Apps</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -171,13 +176,15 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Inspiration has no Borders</h2>
-                  <p>Web-site</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">
+                    Inspiration has no Borders
+                  </h2>
+                  <p class="project-details__category">Web-site</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -186,13 +193,13 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Limited Edition</h2>
-                  <p>Design</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">Limited Edition</h2>
+                  <p class="project-details__category">Design</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -201,13 +208,13 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Project LAB</h2>
-                  <p>Marketing</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">Project LAB</h2>
+                  <p class="project-details__category">Marketing</p>
                 </div>
               </li>
-              <li class="project">
-                <div class="overlay-project">
+              <li class="projects__list">
+                <div class="projects__overlay">
                   <img
                     width="370"
                     height="294"
@@ -216,9 +223,9 @@
                   />
                   <div class="overlay"></div>
                 </div>
-                <div class="project-description">
-                  <h2>Growing Business</h2>
-                  <p>Apps</p>
+                <div class="projects-details">
+                  <h2 class="projects-details__name">Growing Business</h2>
+                  <p class="project-details__category">Apps</p>
                 </div>
               </li>
             </ul>
@@ -226,62 +233,62 @@
         </section>
       </main>
       <footer class="footer-page">
-        <div class="footer-main-container">
-          <div class="footer-contacts">
-            <a class="logo-footer" href="index.html"
-              ><span class="logo-footer-first-word">Web</span>Studio</a
+        <div class="footer-container">
+          <div class="footer-page__contacts">
+            <a class="footer-page__logo" href="index.html"
+              ><span class="footer-page__logo--modifier">Web</span>Studio</a
             >
 
-            <address class="address-container">
-              <ul class="list-content address-container">
+            <address>
+              <ul class="list-content address">
                 <li>
                   <a
-                    class="adress-footer"
+                    class="adress__footer"
                     href="https://goo.gl/maps/83Axbr2DgfrndoFE7"
                     ><p>Ave, NY 10065, USA</p></a
                   >
                 </li>
                 <li>
-                  <a class="contact-footer" href="mailto:info@devstudio.com"
+                  <a class="contact__footer" href="mailto:info@devstudio.com"
                     ><p>info@devstudio.com</p></a
                   >
                 </li>
                 <li>
-                  <a class="contact-footer" href="tel:+1212-772-4150"
+                  <a class="contact__footer" href="tel:+1212-772-4150"
                     ><p>+1 212-772-4150</p></a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div>
-            <h3 id="titleFooter">Find Us On</h3>
-            <ul class="list-content socials-footer-container">
-              <li class="socials-icons-footer">
+          <div class="socials">
+            <h3 id="socials__title">Find Us On</h3>
+            <ul class="list-content social-icons">
+              <li class="social-icons__list">
                 <a href="#"
-                  ><svg width="20px" height="20px">
+                  ><svg width="20px" height="20px" class="social-icons__svg">
                     <use
                       href="./images/icons-svg.svg#icon-instagram-2 "
                     ></use></svg
                 ></a>
               </li>
-              <li class="socials-icons-footer">
+              <li class="social-icons__list">
                 <a href="#"
-                  ><svg width="20px" height="20px">
+                  ><svg width="20px" height="20px" class="social-icons__svg">
                     <use href="./images/icons-svg.svg#icon-twitter "></use></svg
                 ></a>
               </li>
-              <li class="socials-icons-footer">
+              <li class="social-icons__list">
                 <a href="#"
-                  ><svg width="20px" height="20px">
+                  ><svg width="20px" height="20px" class="social-icons__svg">
                     <use
                       href="./images/icons-svg.svg#icon-facebook-1 "
                     ></use></svg
                 ></a>
               </li>
-              <li class="socials-icons-footer">
+              <li class="social-icons__list">
                 <a href="#"
-                  ><svg width="20px" height="20px">
+                  ><svg width="20px" height="20px" class="social-icons__svg">
                     <use
                       href="./images/icons-svg.svg#icon-linkedin-1 "
                     ></use></svg
@@ -290,7 +297,27 @@
             </ul>
           </div>
         </div>
+        <form name="subscribe-form" class="footer-form">
+          <label for="email-subscription" class="footer-form__title"
+            >Subscribe to the newsletter
+          </label>
+          <div class="footer-form__window">
+            <input
+              type="email"
+              placeholder="E-mail"
+              name="email-subscription"
+              class="footer-form__input"
+            />
+            <button type="submit" class="footer-form__button">
+              Subscribe
+              <svg width="24px" height="24px">
+                <use href="./images/icons-svg.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </footer>
     </div>
+    <script src="./js/backdrop.js"></script>
   </body>
 </html>
