@@ -32,4 +32,7 @@
     letter-spacing: 0.03em;
     color: $gray-color;
   }
+  &__svg {
+    transform: translate(97px, 24px);
+  }
 }

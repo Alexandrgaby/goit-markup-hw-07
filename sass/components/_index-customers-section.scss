@@ -33,4 +33,7 @@
       border: 1px solid $lightblue-color;
     }
   }
+  &__svg {
+    transform: scale(0.6);
+  }
 }

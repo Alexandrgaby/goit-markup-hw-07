@@ -7,7 +7,8 @@
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <link rel="stylesheet" href="/sass/main.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -101,7 +102,7 @@
               <svg class="header-right__svg">
                 <use href="./images/icons-svg.svg#iconmail1"></use>
               </svg>
-              <p class="header-right__text">info@devstudio.com</p>
+              <p>info@devstudio.com</p>
             </a>
           </li>
           <li>
@@ -109,7 +110,7 @@
               <svg class="header-right__svg">
                 <use href="./images/icons-svg.svg#icon-phone-1"></use>
               </svg>
-              <p class="header-right__text">+1 212-772-4150</p>
+              <p>+1 212-772-4150</p>
             </a>
           </li>
         </ul>
@@ -118,7 +119,7 @@
         <section class="banner">
           <div class="banner__main">
             <h1 class="banner__title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-            <button class="button-blue" type="button" data-backdrop-open>
+            <button class="button-blue" type="button" data-modal-open>
               <p class="button-blue__text">Request our Service</p>
             </button>
           </div>
@@ -457,23 +458,24 @@
             <a class="footer-page__logo" href="index.html"
               ><span class="footer-page__logo--modifier">Web</span>Studio</a
             >
-
             <address>
-              <ul class="list-content address">
+              <ul class="list-content address-footer">
                 <li>
                   <a
-                    class="adress__footer"
+                    class="address-footer__map"
                     href="https://goo.gl/maps/83Axbr2DgfrndoFE7"
                     ><p>Ave, NY 10065, USA</p></a
                   >
                 </li>
                 <li>
-                  <a class="adress__contact" href="mailto:info@devstudio.com"
+                  <a
+                    class="address-footer__link"
+                    href="mailto:info@devstudio.com"
                     ><p>info@devstudio.com</p></a
                   >
                 </li>
                 <li>
-                  <a class="adress__contact" href="tel:+1212-772-4150"
+                  <a class="address-footer__link" href="tel:+1212-772-4150"
                     ><p>+1 212-772-4150</p></a
                   >
                 </li>
@@ -481,7 +483,7 @@
             </address>
           </div>
           <div class="socials">
-            <h3 id="socials__title">Find Us On</h3>
+            <h3 class="socials__title">Find Us On</h3>
             <ul class="list-content social-icons">
               <li class="social-icons__list">
                 <a href="#"
@@ -537,6 +539,6 @@
         </form>
       </footer>
     </div>
-    <script src="./js/backdrop.js"></script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -33,7 +33,13 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
     cursor: pointer;
   }
+  &__list:hover .overlay,
+  &__list:focus .overlay {
+    transform: translateY(-294px);
+    overflow: visible;
+  }
 }
+
 .projects-details {
   padding-left: 25px;
   &__name {
